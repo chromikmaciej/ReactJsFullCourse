@@ -9,7 +9,7 @@ function AddItem({ newItem, setNewItem, handleSubmit }) {
     <form className="addForm" onSubmit={handleSubmit}>
       <label htmlFor="addItem">Add Item</label>
       <input
-        autoFocus
+          autoFocus
         ref={inputRef}
         id="addItem"
         type="text"
