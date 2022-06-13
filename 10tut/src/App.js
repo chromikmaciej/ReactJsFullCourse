@@ -18,7 +18,7 @@ function App() {
         colorValue={colorValue}
         setColorValue={setColorValue}
         setHexValue={setHexValue}
-        isDarkTest={isDarkText}
+        isDarkText={isDarkText}
         setIsDarkText={setIsDarkText}
       />
     </div>
