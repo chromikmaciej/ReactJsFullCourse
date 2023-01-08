@@ -51,7 +51,7 @@ function App() {
     const filteredResults = posts.filter(
       (post) =>
         post.body.toLocaleLowerCase().includes(search.toLocaleLowerCase()) ||
-        post.body.toLocaleLowerCase().includes(search.toLocaleLowerCase())
+        post.title.toLocaleLowerCase().includes(search.toLocaleLowerCase())
     );
 
     setSearchResults(filteredResults.reverse());
