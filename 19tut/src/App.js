@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "./Layout";
 import Home from "./Home";
 import NewPost from "./NewPost";
+import EditPost from "./EditPost";
 import PostPage from "./PostPage";
 import About from "./About";
 import Missing from "./Missing";
@@ -115,6 +116,22 @@ function App() {
           <Route
             path=":id"
             element={<PostPage posts={posts} handleDelete={handleDelete} />}
+          />
+        </Route>
+        <Route path="edit">
+          <Route
+            path=":id"
+            index
+            element={
+              <EditPost
+                posts={posts}
+                handleEdit={handleEdit}
+                editTitle={editTitle}
+                setEditTitle={setEditTitle}
+                eidtBody={editBody}
+                setEditBody={setEditBody}
+              />
+            }
           />
         </Route>
         <Route path="about" element={<About />} />
