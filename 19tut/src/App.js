@@ -128,7 +128,7 @@ function App() {
                 handleEdit={handleEdit}
                 editTitle={editTitle}
                 setEditTitle={setEditTitle}
-                eidtBody={editBody}
+                editBody={editBody}
                 setEditBody={setEditBody}
               />
             }
