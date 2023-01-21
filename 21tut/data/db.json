@@ -8,21 +8,27 @@
     },
     {
       "id": 2,
-      "title": "My 2nd Post",
-      "datetime": "July 01, 2021 11:17:36 AM",
-      "body": "Second Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis con Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis con Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis con Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis con"
+      "title": "My 2nd Post już nie taki drugi",
+      "datetime": "January 21, 2023 3:37:23 PM",
+      "body": "0 370 009 007"
     },
     {
       "id": 4,
       "title": "My Fourth Post1",
-      "datetime": "January 13, 2023 11:18:34 AM",
-      "body": "dadfasfvv aaa"
+      "datetime": "January 21, 2023 2:09:24 PM",
+      "body": "EU44-006"
     },
     {
-      "id": 5,
-      "title": "Test Post for Tutorial",
-      "datetime": "January 16, 2023 6:51:42 PM",
-      "body": "fff + new 123 654asdfasdf"
+      "id": 6,
+      "title": "Ala ma kota, aaaaaaaaaaaaaax",
+      "datetime": "January 21, 2023 3:33:00 PM",
+      "body": "Kot ma Alę"
+    },
+    {
+      "id": 7,
+      "title": "Kończymy 21 tut",
+      "datetime": "January 21, 2023 3:37:01 PM",
+      "body": "Tak jest koniec"
     }
   ]
 }
