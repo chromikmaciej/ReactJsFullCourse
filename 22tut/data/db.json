@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "My First Post",
+      "datetime": "July 01, 2021 11:17:36 AM",
+      "body": "First Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis con Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis con Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis con Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis con"
+    },
+    {
+      "id": 2,
+      "title": "My 2nd Post już nie taki drugi",
+      "datetime": "January 21, 2023 3:37:23 PM",
+      "body": "0 370 009 007"
+    },
+    {
+      "id": 4,
+      "title": "My Fourth Post1",
+      "datetime": "January 21, 2023 2:09:24 PM",
+      "body": "EU44-006"
+    },
+    {
+      "id": 6,
+      "title": "Ala ma kota, aaaaaaaaaaaaaax",
+      "datetime": "January 21, 2023 3:33:00 PM",
+      "body": "Kot ma Alę"
+    },
+    {
+      "id": 7,
+      "title": "Kończymy 21 tut",
+      "datetime": "January 21, 2023 3:37:01 PM",
+      "body": "Tak jest koniec"
+    }
+  ]
+}
