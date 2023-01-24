@@ -30,4 +30,22 @@ export default createStore({
   setSearchResults: action((state, payload) => {
     state.searchResults = payload;
   }),
+  postCount: computed((state) => state.posts.length),
+  getPostById: computed((state) => {
+    return (id) => state.posts.find((post) => post.id.toString() === id);
+  }),
+  savePost: thunk(async (actions, newPost, helpers) => {
+    const { posts } = helpers.getState();
+    try {
+      const response = await api.post("/posts", newPost);
+      actions.setPosts([...posts, response.data]);
+      actions.setPostTitle("");
+      actions.setPostBody("");
+    } catch (err) {
+      console.log(`Error: ${err.message}`);
+    }
+  }),
+  deletePost: thunk(async (actions, id, helpers) => {
+    const { posts } = helpers.getState();
+  }),
 });
