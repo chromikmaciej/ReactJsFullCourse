@@ -16,11 +16,10 @@ function App() {
   const { data, fetchError, isLoading } = useAxiosFetch(
     "http://localhost:3500/posts"
   );
+
   useEffect(() => {
-    useEffect(() => {
-      setPosts(data);
-    }, [data, setPosts]);
-  });
+    setPosts(data);
+  }, [data, setPosts]);
 
   return (
     <Routes>
