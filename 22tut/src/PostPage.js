@@ -1,6 +1,5 @@
 import React from "react";
 import { useParams, Link, useNavigate } from "react-router-dom";
-import api from "./api/posts";
 import { useStoreState, useStoreActions } from "easy-peasy";
 
 const PostPage = () => {
@@ -10,7 +9,7 @@ const PostPage = () => {
   const getPostById = useStoreState((state) => state.getPostById);
   const post = getPostById(id);
 
-  const handleDelete = async (id) => {
+  const handleDelete = (id) => {
     deletePost(id);
     navigate("/");
   };

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import React from "react";
 import { useEffect } from "react";
-import { useStoreState, useStoreActions, action } from "easy-peasy";
+import { useStoreState, useStoreActions } from "easy-peasy";
 
 const Nav = () => {
   const posts = useStoreState((state) => state.posts);
